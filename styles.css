@@ -1,0 +1,130 @@
+/* 
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+
+## Colors
+
+### Primary
+
+- Green: hsl(75, 94%, 57%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 20%)
+- Dark Grey: hsl(0, 0%, 12%)
+- Off Black: hsl(0, 0%, 8%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 14px
+
+### Font
+
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 600, 700 */
+
+
+
+
+/* ALLGEMEINES */
+
+@font-face{
+    font-family: "Inter";
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+
+    
+    
+}
+
+
+
+p {
+    font-size: 14px;
+    font-size: small;
+    color: hsl(0, 0%, 80%);
+    margin-bottom: 0;
+}
+
+#bild {
+   border-radius: 100%;
+   height: 80px;
+   width: auto;
+   margin-top: 2em;
+   filter: brightness(80%);
+}
+
+
+.flex-container {
+    display: flex;
+    
+     align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center; 
+    
+}
+
+.hauptteil {
+   
+  
+    margin-top: 8em;
+    font-family: "Inter";
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+    width: 20em;
+    height: 32.5em;
+   
+    
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h5 {
+    color: hsl(75, 94%, 57%);
+    margin-top: 9px;
+}
+
+
+
+button {
+    background-color: hsl(0, 0%, 20%);
+    width: 80%;
+    height: 3em;
+    border-radius: 0.5em;
+    color: hsl(0, 0%, 100%);
+    margin-top: 0 ;
+    margin-bottom: 0.8em;
+    border: 1px solid hsl(0, 0%, 20%);
+    font-weight: 600;
+    }
+
+    button:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 20%);
+        cursor: pointer;
+        
+        
+    }
+
+
